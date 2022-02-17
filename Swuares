@@ -1,0 +1,5 @@
+n=int(input("enter the number"))
+i=0
+While i<n:
+  print(i*i)
+  i=i+1
