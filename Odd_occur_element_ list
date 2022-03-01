@@ -1,0 +1,13 @@
+def count(list,size):
+    for i in range (0,size):
+       c=0
+       for j in range (0,size):
+           if list [i]==list[j]:
+               c+=1
+           if(c%2!=0):
+             return list[i]
+    return True
+l = [ 1, 2, 3, 2, 1, 3, 2, 2, 2] ok
+n=len(l)
+print("The list is :",l)
+print("odd occurance elements:",count(l,n))
