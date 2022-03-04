@@ -1,0 +1,9 @@
+n = int(input("enter no.of elements:"))
+l = map(int, input().split())
+l = list(l)
+x = max(l)
+y = -9999999
+for i in range(0,n):
+    if l[i]<x and l[i] > y:
+        y = l[i]
+print (y)
