@@ -1,0 +1,9 @@
+student_info={1:['Anu','Female','Mpc',546],
+             2:['Bhavya','Male','Bca',435],
+             3:['Chaitra','Female','Mccs',678],
+             4:['Durga','Female','Mecs',865]}
+x=int(input('enter student no:'))
+print('Name of student:',student_info[x][0])
+print('Gender:',student_info[x][1])
+print('Group:', student_info[x][2])
+print('Result:', student_info[x][3])
