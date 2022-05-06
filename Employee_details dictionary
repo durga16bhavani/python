@@ -1,0 +1,10 @@
+employ_dtls={101:['sarala','Human resource','12 dec,2009',36000],
+   102:['satya','Manager','03 july,2017',45000],
+   103:['Nileesha','Team leader','16 may,2019',65000],
+   104:['Akhila','software','09 feb,2022',48000]}
+n=int(input('enter employee no:'))
+print('Employee name:',employ_dtls[n][0])
+print('Employee designation:', employ_dtls[n][1])
+print('Employee joining date:',employ_dtls[n][2])
+print('Employee salary:',employ_dtls[n][3])
+
