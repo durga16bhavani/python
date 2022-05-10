@@ -1,0 +1,9 @@
+student_details = {1:["Arushi",'BCA',980],
+                2:["Anuradha",'MPCS',964],
+                3:["Mani",'MECS',683],
+                4:["Haritha",'BBA',466]} 
+print ("The dictionary before performing remove is:", 
+(student_details))
+del student_details[4] 
+print ("The dictionary after remove is :",
+(student_details))
